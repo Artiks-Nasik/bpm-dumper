@@ -1,4 +1,4 @@
-﻿#include <Windows.h>
+#include <Windows.h>
 #include <iostream>
 
 #include "il2cpp.hpp"
@@ -21,6 +21,7 @@ BOOL APIENTRY DllMain( HMODULE hModule,
         if ( auto status = dumper::dump( ) != dumper::dump_status::SUCCESS )
         {
             std::cout << "Dump not succeed err: " << status << std::endl;
+            return FALSE;
         }
         std::cout << "Dump successful // made by zxsrxt" << std::endl;
         std::cout << "Dump dir: " << dumper::dump_dir << "\\dump.cs" << std::endl;
