@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{04fee83c-b704-4e07-a4ac-fc12053919a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dumper">
+      <UniqueIdentifier>{36258f15-c841-4bf8-935a-eaafec64b098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\il2cpp">
+      <UniqueIdentifier>{415878a1-f54e-47e8-aa85-1915451fcba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui">
+      <UniqueIdentifier>{848783c5-d968-4270-a04b-6a679216ec94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{1b458aa1-46f8-49fd-9659-26d410b363bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dumper.hpp">
+      <Filter>src\dumper</Filter>
+    </ClInclude>
+    <ClInclude Include="file.hpp">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cpp_header.h">
+      <Filter>src\il2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cpp.hpp">
+      <Filter>src\il2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cpp_table_defs.hpp">
+      <Filter>src\il2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="normalize.hpp">
+      <Filter>src\dumper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dumper.cpp">
+      <Filter>src\dumper</Filter>
+    </ClCompile>
+    <ClCompile Include="il2cpp.cpp">
+      <Filter>src\il2cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="normalize.cpp">
+      <Filter>src\dumper</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
